@@ -8,7 +8,7 @@ var shared_secret = process.env.shared;
 
 
 var games = [2807960, 714010, 1172470, 1803110, 2807960, 49520, 307950, 1938090, 10180, 730, 2507950, 1085660, 380600, 1240440, 455020, 2767030, 2357570, 1808500, 248820, 219740, 71240, 3354750, 2641470, 868270, 2073850, 43196];  // Enter here AppIDs of the needed games
-var status = 1;  // 1 - online, 7 - invisible
+var status = 0;  // 1 - online, 7 - invisible
 
 
 user = new steamUser();
